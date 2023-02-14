@@ -1,11 +1,10 @@
-import { Inter } from '@next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import Showcase from '@/components/Showcase/Showcase';
+import { Poppins } from '@next/font/google';
 
 export default function Home() {
 	return (
-		<main className={``}>
-			<div className={``}></div>
+		<main>
+			<Showcase />
 		</main>
 	);
 }
