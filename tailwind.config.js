@@ -10,6 +10,7 @@ module.exports = {
 		extend: {
 			colors: {
 				brand: '#ff0077',
+				cream: '#fffcfd',
 			},
 			fontFamily: {
 				display: ['Poppins', ...defaultTheme.fontFamily.sans],
