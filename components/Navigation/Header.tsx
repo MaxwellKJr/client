@@ -16,11 +16,11 @@ const Header = () => (
 
 				<ul className='hidden md:flex items-center uppercase text-xs'>
 					{links.map(link => (
-						<li key={link.name} className='nav-link'>
+						<li key={link.name}>
 							<Link
 								href={link.route}
 								title={link.title}
-								className='px-2 py-4 inline-block font-medium'
+								className='px-4 py-6 inline-block font-medium transition-all ease-in-out hover:opacity-80'
 							>
 								<span className='route-text'>{link.name}</span>
 							</Link>
