@@ -7,9 +7,9 @@ import pageLinks from './PageLinks';
 const links = pageLinks;
 
 const Header = () => (
-	<header className='w-full h-[10vh] bg-brand m-auto fixed'>
+	<header className='w-full h-[10vh] bg-brand m-auto fixed z-50'>
 		<nav className='flex items-center h-full text-white'>
-			<div className='flex justify-between items-center w-4/5 max-w-5xl m-auto'>
+			<div className='flex justify-between items-center w-11/12 md:w-4/5 max-w-5xl m-auto'>
 				<a href='/' className='font-bold'>
 					Struggling Clients
 				</a>
